@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="father">
+
+    <div class="input-container">
+        <input type="text" id="todo-input" placeholder="Enter text">
+        <button id="add-btn">ADD</button>
+    </div>
+    <div id="options-container">
+        <div id="toggle-box">
+            <div id="toggle-ball" class="toggle-off"></div>
+        </div>
+        <p id="indicator" class="completed-off">COMPLETED</p>
+        <p id="amount"></p>
+    </div>
+    <div id="todo-container" class="todo-tasks">
+        <ul id="todo-list"></ul>
+    </div>
+    <div id="completed-container" class="completed-tasks">
+        <ul id="completed-list"></ul>
+    </div>
+
+
+</div>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
